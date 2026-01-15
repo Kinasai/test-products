@@ -1,6 +1,6 @@
-# Balance Management API
+# Product Management API
 
-#### Простое API приложение для управления задачами.
+#### Простое API приложение для управления каталогом товаров.
 
 # Требования
 - [Docker](https://docs.docker.com/engine/install/)
