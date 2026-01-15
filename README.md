@@ -1,4 +1,4 @@
-# Balance Management API
+# Product Management API
 
 #### Простое API приложение для управления задачами.
 
