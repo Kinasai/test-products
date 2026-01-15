@@ -21,7 +21,9 @@ class ProductResource extends JsonResource
             'category_id' => $this->category_id,
             'in_stock' => boolval($this->in_stock),
             'rating' => $this->rating,
-            'category' => $this->whenLoaded('category')?->name
+            'category' => $this->whenLoaded('category')?->name,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
             ];
     }
 }
